@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover{
+    color: red;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display:block;
+    color: red;
+    background-color: white;
+    width: 170px;
+}
+
+#div:hover > p{
+    display:block;
+    color: white;
+    background-color: red;
+    width: 170px;
+}

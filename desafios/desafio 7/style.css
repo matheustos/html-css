@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(47, 43, 43);
+}
+
+h1{
+    color: white;
+    font-size: 43px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+.video{
+    width: 600px;
+    height: 350px;
+}
+
+p{
+    color: white;
+}
+
+.img-voltar{
+    width: 42px;
+    height: 40px;
+}
