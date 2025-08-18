@@ -39,17 +39,15 @@ header > h2{
 header > nav > a{
     color: white;
     text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .a:hover{
     background-color: rgba(6, 68, 39, 0.832);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-radius: 5px;
+    padding: 1.5px;
     color: rgb(67, 192, 109);
-    padding-top: 2px;
 }
 
 main{
