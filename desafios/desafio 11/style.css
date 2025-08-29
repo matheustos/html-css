@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin-left: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+}
+
+th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.negrito {
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    overflow-x: auto;
+}
+
