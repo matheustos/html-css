@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de Formulrio</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="Data" id="idata" required>
+        </p>
+        <p>
+            <label for="ihora">Horário:</label>
+            <select id="hora" name="hora">
+            <option value="08:00">08:00</option>
+            <option value="09:30">09:30</option>
+            <option value="11:00">11:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:30">15:30</option>
+            </select>
+        </p>
+        <p>
+            <label for="itipo">Serviço:</label>
+            <select id="opcao" name="opcao">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Agendar">
+        </p>
+    </form>
+</body>
+</html>
